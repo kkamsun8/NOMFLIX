@@ -12,7 +12,10 @@
 ## API Verbs
 
 - [ ] Now Playing (Movie)
-- [ ] Top Rated (TV, Movie)
+- [ ] Top Rated (TV)
 - [ ] Upcoming (Movie)
-- [ ] Popular (TV, Movie)
+- [ ] Popular (TV, X)
 - [ ] airing Today(TV)
+- [ ] TV Show Detail
+- [ ] Movie Detail
+- [ ] Search (TV, Movie)
