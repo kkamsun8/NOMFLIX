@@ -38,11 +38,16 @@ class HomeContainer extends Component {
     }
 
     render() {
-        const { nowPlaying, upcoming, popular, error, loading } = this.state
+        const { nowPlaying, upcoming, popular, error, loading } = this.state;
+        console.log(this.state);
         return (
-            <div>
-
-            </div>
+            <HomePresenter
+                nowPlaying={nowPlaying}
+                upcoming={upcoming}
+                popular={popular}
+                error={error}
+                loading={loading}
+            />
         );
     }
 }
